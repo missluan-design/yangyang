@@ -1,0 +1,6 @@
+raw = open(r'C:\Users\lyx\AppData\Local\Temp\dsh-spill-hTJNs9\session-9cbf5dc985b9\b279480428a8-web_fetch.txt', encoding='utf-8').read()
+print('len', len(raw))
+print('content count', raw.count('"content"'))
+print('base64 count', raw.count('base64'))
+i = raw.find('"content"')
+print(repr(raw[i:i+60]))

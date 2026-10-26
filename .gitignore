@@ -1,0 +1,7 @@
+# DSH dshmarket repair backups (not project source)
+dsh-profile-desktop-backup-*/
+dshmarket-broken-backup-*/
+
+# tool/runtime caches
+.comfy/
+.ghdl/
